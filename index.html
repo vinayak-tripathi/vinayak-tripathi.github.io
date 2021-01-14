@@ -2,51 +2,23 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/brython/3.8.8/brython.js" integrity="sha256-rA89wPrTJJQFWJaZveKW8jpdmC3t5F9rRkPyBjz8G04=" crossorigin="anonymous"></script>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/brython/3.8.8/brython_stdlib.js" integrity="sha256-Gnrw9tIjrsXcZSCh/wos5Jrpn0bNVNFJuNJI9d71TDs=" crossorigin="anonymous"></script>
-    <title>Brython</title>
+    <title>VT</title>
 </head>
-<body onload="brython()">
+<body>
     <h1>Hi Friends✋</h1>
     <br>
     <input type="text" id="text" placeholder="Enter something">
     <span id="output"></span>
-
-
     <h2 id="greet">Hello. My self Vinayak Tripathi 😎</h2>
-<h3>Some of my friends call me VT✨
-<h3>I am very interested in web development and electronics.</h3>
-    <!-- Alert and DOM insert -->
-    <script type="text/python" id="script0">
-        from browser import document,console, alert
-        def show(e):
-            console.log(e);
-            alert("Hello")
-            document['hello']<='Hello'
-
-        document['alertbtn'].bind('click',show)
-    </script>
-
-    <!--  Text Bind -->
-<p>Some of my projects are:
-<ul>
-	<li><a href="https://vinayak-tripathi.github.io/Calci/calculator.html" target="_blank">Calculators</a>
-	<li><a href="https://vinayak-tripathi.github.io/Clock/clock.html" target="_blank">Clock</a>
-</ul>
-</p>
-<iframe src="https://vinayak-tripathi.github.io/Calci/calculator.html" title="Calculators" width="45%" heigth=500px></iframe>
-<iframe src="https://vinayak-tripathi.github.io/Clock/clock.html" title="Clock" width="45%" heigth=500px></iframe>
-
-    <script id="script1" type='text/python'>
-        from browser import document
-        def show_text(e):
-            document['output'].textContent=e.target.value
-
-        document['text'].bind('input',show_text)
-    </script>
-
-    <!-- template and variable -->
-    <script type='text/python' id='script2'></script>
+    <h3>Some of my friends call me VT✨
+    <h3>I am very interested in web development and electronics.</h3>
+    <p>Some of my projects are:
+    <ul>
+        <li><a href="https://vinayak-tripathi.github.io/Calci/calculator.html" target="_blank">Calculators</a>
+        <li><a href="https://vinayak-tripathi.github.io/Clock/clock.html" target="_blank">Clock</a>
+    </ul>
+    </p>
+    <iframe src="https://vinayak-tripathi.github.io/Calci/calculator.html" title="Calculators" height=400px></iframe>
+    <iframe src="https://vinayak-tripathi.github.io/Clock/clock.html" title="Clock" width="400px" height=400px></iframe>
 </body>
 </html>
