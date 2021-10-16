@@ -33,7 +33,15 @@
       margin: auto;
       width:18rem;
     }
-     
+    .progress {
+  border-radius: 10px;
+}
+
+.progress .progress-bar {
+  width: 0px;
+  border-radius: 10px;
+  transition: 2s;
+}
 
     </style>
     </head>
@@ -75,7 +83,7 @@
             <strong>
             <ul class="navbar-nav nav-flex-icons">
                 <li class="nav-item">
-                    <a class="nav-link" href="#home">Home</a>
+                    <a class="nav-link" href="#home">About Me</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#projects">Projects</a>
@@ -104,24 +112,29 @@
               <strong style="font-size:210% ;font-weight: 500;"> Hello, Myself</strong>
               <br> 
               <strong style="font-size:250% ;font-weight: bold;">Vinayak Tripathi</strong>
-              <p class="lea">I am very interested in web development and electronics.</p>
+              <p class="lea">Electronic Enthusiast</p>
             </div>
             
         </div>
       </header>
       <main class="main-content">
         <section id="home" style="background-color: rgba(161, 210, 238, 0.274);">
-          <h1 class="sec_head">Welcome to Zippy</h1>
+          <h1 class="sec_head">About Me</h1>
           <div class="container" style="margin-top: 50px;">
             <div class="row">
               <div class="col-sm-12 col-md-7">
-                <p>
-                    Earth is a beautiful living planet in the Universe and the common 
-                    habitat of more than 7 billion human population and millions of species of biodiversity. 
-                    Our Earth provides us with food, shelter and most of our requirements.
-                    Despite unavoidable free services provided by the earth to humans, 
-                    we are not able to pay off her kindness to us.
-                    Rather we humans are being cruel to our Earth with our selfish activities.
+                <p style="font-size:22px;font-weight:400;font-family: sans-serif;">
+                    <ul style="list-style-type: none;">
+                      <li>
+                        I am an third year Elctronics Engineering student at Sardar Patel Institute Technology.
+                      </li>
+                      <li>
+                        I have good coding knowledge in C and Python as well as working knowledge in front-end technologies such as HTML5, CSS3, JavaScript etc.
+                      </li>
+                      <li>
+                        As I am Fresher Looking to start my career with a reputed firm so that I can enhance my knowledge and improve my skills by giving my 100% for the growth of organization along with mine.
+                      </li>
+                    </ul>
                 </p>
               </div>
               <div class="col-sm-12 col-md-5" style="height:300px">'
@@ -130,42 +143,75 @@
               </div>
             </div>
           </div>
-          <div class="container" style="margin-top: 50px;max-width: 88%;">
+          <div class="container" style="margin-top: 50px;max-width: 100%;">
             <div class="row">
-              <div class="col-sm-6 col-md-4" style="text-align: center;margin-top: 10px;">
+              <div class="col-sm-12 col-md-12" style="text-align: center;margin-top: 10px;">
                 <div class="custom-column">
                   <div class="header">
-                    <img src="Assets/bell.png" class="card_icon"><br>
-                    Notification
+                    <h1>My Skills</h1>
                   </div>
-                  <div class="custom-column-content">
-                    SMS Notification as reminders will be send to you if you agree.
-                  </div>
-                  <div class="custom-column-footer"><button class="but_intro">Click here</button></div>
+                  <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">HTML</h6>
+                                    <h6 class="font-weight-bold">90%</h6>
+                                </div>
+                                <div class="progress">
+                                  <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">CSS</h6>
+                                    <h6 class="font-weight-bold">85%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-warning" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">Python</h6>
+                                    <h6 class="font-weight-bold">90%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">Javascript</h6>
+                                    <h6 class="font-weight-bold">95%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-danger" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">C</h6>
+                                    <h6 class="font-weight-bold">90%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-dark" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">Flutter</h6>
+                                    <h6 class="font-weight-bold">50%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
-              <div class="col-sm-6 col-md-4" style="text-align: center;margin-top: 10px;">
-                <div class="custom-column">
-                  <div class="header">
-                    <img src="Assets/mail.png" class="card_icon"><br>
-                    Mail
-                  </div>
-                  <div class="custom-column-content">
-                    Regular Email reminders will be send about the events.
-                  </div>
-                  <div class="custom-column-footer"><button class="but_intro">Click here</button></div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4" style="text-align: center;margin-top: 10px;">
-                <div class="custom-column">
-                  <div class="header">
-                    <img src="Assets/database.png" class="card_icon"><br>
-                    Collection
-                  </div>
-                  <div class="custom-column-content">
-                    Members contribute in collecting information of wrongdoing.
-                  </div>
-                  <div><button class="but_intro">Click here</button></div>
                 </div>
               </div>
             </div>
@@ -178,9 +224,11 @@
               <div class="card" style="width: 20rem;">
                 <img class="card-img-top" src="Assets/project1.jpeg" alt="Card image cap">
                 <div class="card-body">
-                  <h5 class="header">Organic Ingredients</h5>
+                  <h5 class="header">Fire Detection System Using Scilab and Python</h5>
                   <p class="card-text">
-                    "We must make organic the conventional choice and not the exception available only to the rich and educated."<br> ~ Maria Rodale
+                    Used basic image processing to detect fire.
+                    Developed algorithm and implemented it in Python and Scilab.
+                    Project report was written in IEEE format. 
                   </p>
                   <button class="but_intro">Lauch Casestudy</button>
                 </div>
@@ -190,9 +238,11 @@
               <div class="card" style="width: 20rem;">
                 <img class="card-img-top" src="Assets/project2.jpeg" alt="Card image cap">
                 <div class="card-body">
-                  <h5 class="header">Earth Day</h5>
+                  <h5 class="header">Poshtik: Canteen Food ordering app</h5>
                   <p class="card-text">
-                    "Man must feel the earth to know himself and recognize his values. God made life simple. It is man who complicates it." <br>~ Charles Lindbergh
+                    Developed a canteen food ordering app using flutter and firebase as
+                    backend. <br>Developed admin panel site using HTML, CSS and 
+                    JavaScript.
                   </p>
                   <button class="but_intro">Lauch Casestudy</button>
                 </div>
@@ -202,9 +252,10 @@
               <div class="card" style="width: 20rem;">
                 <img class="card-img-top" src="Assets/project3.jpeg" alt="Card image cap">
                 <div class="card-body">
-                  <h5 class="header">Mountains</h5>
+                  <h5 class="header">Motor Controller</h5>
                   <p class="card-text">
-                    "Everyone wants to live on top of the mountain, but all the happiness and growth occurs while you're climbing it."<br> ~ Andy Rooney
+                    Made PWM speed controller using 555 timer.<br>
+                    Controlled Direction of motor using H bridge technique.
                   </p>
                   <button class="but_intro">Lauch Casestudy</button>
                 </div>
@@ -214,9 +265,10 @@
               <div class="card" style="width: 20rem;">
                 <img class="card-img-top" src="Assets/project4.jpeg" alt="Card image cap">
                 <div class="card-body">
-                  <h5 class="header">Save Earth</h5>
+                  <h5 class="header">Calculators (Ongoing)</h5>
                   <p class="card-text">
-                    "Green is my favorite. And it's my favorite because it's the color of my wife's eyes, grass, trees, life, and money, and mother earth!" <br>~ Casper Van Dien
+                    Developing web pages with several types of calculators using HTML,
+                    CSS, Bootstrap and JavaScript
                   </p>
                   <button class="but_intro">Lauch Casestudy</button>
                 </div>
@@ -226,87 +278,20 @@
               <div class="card" style="width: 20rem;">
                 <img class="card-img-top" src="Assets/project5.jpeg" alt="Organic Ingredients">
                 <div class="card-body">
-                  <h5 class="header">Tree of Life</h5>
+                  <h5 class="header">Digital Circuit Project
+                  </h5>
                   <p class="card-text">
-                    "The tree of life is growing where the spirit never dies, and the bright light of salvation shines in dark and empty skies."<br> ~ Bob Dylan  
+                    Made Asynchronous Digital counter using JK flip flop.
+                    Made seven segment display decoder and displayed the result in seven
+                    segment displays
                   </p>
                   <button class="but_intro">Lauch Casestudy</button>
                 </div>
               </div>  
             </div>
-            <div class="proj">
-              <div class="card" style="width: 20rem;">
-                <img class="card-img-top" src="Assets/project1.jpeg" alt="Card image cap">
-                <div class="card-body">
-                  <h5 class="header">Organic Ingredients</h5>
-                  <p class="card-text">
-                    "We must make organic the conventional choice and not the exception available only to the rich and educated."<br> ~ Maria Rodale
-                  </p>
-                  <button class="but_intro">Lauch Casestudy</button>
-                </div>
-              </div>
-            </div>
-            <div class="proj">
-              <div class="card" style="width: 20rem;">
-                <img class="card-img-top" src="Assets/project2.jpeg" alt="Card image cap">
-                <div class="card-body">
-                  <h5 class="header">Earth Day</h5>
-                  <p class="card-text">
-                    "Man must feel the earth to know himself and recognize his values. God made life simple. It is man who complicates it." <br>~ Charles Lindbergh
-                  </p>
-                  <button class="but_intro">Lauch Casestudy</button>
-                </div>
-              </div>  
-            </div>
-            <div class="proj">
-              <div class="card" style="width: 20rem;">
-                <img class="card-img-top" src="Assets/project3.jpeg" alt="Card image cap">
-                <div class="card-body">
-                  <h5 class="header">Mountains</h5>
-                  <p class="card-text">
-                    "Everyone wants to live on top of the mountain, but all the happiness and growth occurs while you're climbing it."<br> ~ Andy Rooney
-                  </p>
-                  <button class="but_intro">Lauch Casestudy</button>
-                </div>
-              </div>
-            </div>
           </div>
         </section>
-        <section style="background-color: rgb(137, 99, 150);padding: 10% 3% 4% 3%;">
-          <h1 class="sec_head" style="color: white;">Video Projects</h1>
-          <div class="scrolling-wrapper row flex-row flex-nowrap mt-4 pb-4 pt-2">
-                <div class="col_video" style="margin:10px;">
-                  <iframe class="video" src="https://www.youtube.com/embed/MFnSTUkpUMU"></iframe>              
-                </div>
-                <div class="col_video" style="margin:10px;">
-                  <iframe class="video" src="https://www.youtube.com/embed/TJLan-pJzfQ"></iframe>   
-                </div>
-                <div class="col_video" style="margin:10px;">
-                  <iframe class="video" src="https://www.youtube.com/embed/Hzr1uEm4r6k"></iframe>  
-                </div>
-                <div class="col_video" style="margin:10px;">
-                  <iframe class="video" src="https://www.youtube.com/embed/PcX0VyyHCWY"></iframe>
-                </div>
-                <div class="col_video" style="margin:10px;">
-                  <iframe class="video" src="https://www.youtube.com/embed/1wkPMUZ9vX4"></iframe>  
-                </div>
-                <div class="col_video" style="margin:10px;">
-                  <iframe class="video" src="https://www.youtube.com/embed/2fM2Ir2kfJw"></iframe> 
-                </div>
-                <div class="col_video" style="margin:10px;">
-                  <iframe class="video" src="https://www.youtube.com/embed/BITaI5ijAac"></iframe>    
-                </div>
-          </div>
-        </section>
-        
-        <section style="background-image: url('Assets/intro1.jpg');background-size: cover;padding-bottom: 10%;">
-          <h1 class="sec_head">Newsletter SignUp</h1>
-          <div style="text-align: center;">
-            <input type="email" name="" id="email_input">
-            <input type="button" value="Subscribe" class="subscribe">
-          </div>
-        </section>
-        <section id="blog">
+        <section id="blog" style="background-color:rgba(177, 132, 218, 0.603)">
           <h1 class="sec_head">Blog</h1>
           <div class='row' id="blog">
             <div class="card">
@@ -316,7 +301,6 @@
                 <p class="card-text">
                   "Green is my favorite. And it's my favorite because it's the color of my wife's eyes, grass, trees, life, and money, and mother earth!" <br>~ Casper Van Dien
                 </p>
-                <button class="but_intro">View</button>
               </div>
             </div>  
             <div class="card">
@@ -326,7 +310,6 @@
                 <p class="card-text">
                   "Green is my favorite. And it's my favorite because it's the color of my wife's eyes, grass, trees, life, and money, and mother earth!" <br>~ Casper Van Dien
                 </p>
-                <button class="but_intro">View</button>
               </div>
             </div>  
             <div class="card">
@@ -336,18 +319,14 @@
                 <p class="card-text">
                   "Green is my favorite. And it's my favorite because it's the color of my wife's eyes, grass, trees, life, and money, and mother earth!" <br>~ Casper Van Dien
                 </p>
-                <button class="but_intro">View</button>
               </div>
             </div>  
           </div>
           
         </section>
-        <section id="contact" style="padding: 10% 0% 0% 0%;color:black">
-          <div class="row" style="margin-left:auto;margin-right:auto;background-image:url('Assets/map.png');background-size:cover;background-repeat: no-repeat;">
-            <div class="col-sm-12 col-md-6" style="height: 530px;">
-              
-            </div>
-            <div class="col-sm-12 col-md-6" style="height: 530px;background-color: rgb(251, 226, 108);padding:35px">
+        <section id="contact" style="padding: 10% 0% 0% 0%;color:black;background-color: rgb(251, 226, 108)">
+          <div class="row">
+            <div style="height: 530px;padding:35px;width:75%;margin:0 auto">
               <h1 class="sec_head" style="text-align: left;">Contact</h1>
               <ul style="list-style-type: none;padding-left: 0;">
                 <li>
@@ -367,10 +346,18 @@
                   <textarea rows="4" cols="50" class="contact_field" id="message"></textarea>
                 </li>
                 <li>
-                  <input type="button" value="SEND" class="contact_field" id="send">
+                  <a value="SEND" class="contact_field" id="send" onmousedown="send()">Send</a>
                 </li>
               </ul>
-              
+              <script>
+                function send(){
+                  bod = document.getElementById("message").value;
+                  sub = document.getElementById("subject").value;
+                  from = document.getElementById("name").value;
+                  console.log("mailto:vinayaktripathi22@gmail.com?subject="+sub+"&body="+bod+"\nFrom"+from);
+                  document.getElementById("send").setAttribute("href","mailto:vinayaktripathi22@gmail.com?subject="+sub+"&body="+bod+"\nFrom "+from);
+                }
+              </script>
             </div>
           </div>
         </section>
@@ -383,36 +370,29 @@
                   Address
                 </div>
                 <div class="custom-column-content" style="color:white">
-                  VT Complex,<br>
-                  Mumbai,<br>
-                  400001
+                  T-1/282,<br>
+                  Cidco Colony,<br>
+                  Boisar - 400001
                 </div>
             </div>
             <div class="col-sm-12 col-md-4" style="text-align: center;">
               <div class="foot_head">
-                Follow Us
+                Profiles
               </div>
               <div class="custom-column-content" style="color:white">
                 <div class="footer_links">
-                  <a href="#" class="footer_icons" id="footer_fb"> </a>
-                  <a href="#" class="footer_icons" id="footer_t"> </a>
-                  <a href="#" class="footer_icons" id="footer_g"> </a>
-                </div>
-                <div class="footer_links">
-                  <a href="#" class="footer_icons" id="footer_ins"> </a>
-                  <a href="#" class="footer_icons" id="footer_lkd"> </a>
-                  <a href="#" class="footer_icons" id="footer_rdt"> </a>
+                  <a href="https://www.instagram.com/vinayak.t22/" class="footer_icons" id="footer_ins"> </a>
+                  <a href="https://www.linkedin.com/in/v-tripathi/" class="footer_icons" id="footer_lkd"> </a>
+                  <a href="https://github.com/vinayak-tripathi" class="footer_icons" id="footer_g"> </a>
                 </div>
               </div>
             </div>
             <div class="col-sm-12 col-md-4" style="text-align: center;">
               <div class="foot_head">
-                Contact Us
+                Contact Me
               </div>
               <div class="custom-column-content"  style="color:white">
-                +91 1234 56789<br>
-                zippy@skype<br>
-                enquiry@zippy.com
+                vinayaktripathi22@gmail.com
               </div>
             </div>
           </div>
